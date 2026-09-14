@@ -57,3 +57,12 @@
   ![HLD](./HLD.png)
 
 ---
+
+# 6. Deep Dive
+
+  For better performance we can use caching & queue and we will discuss the use of each one of them  
+  ![DD](./DeepDive.png)
+  1. Cache usage here is for getting profile and jobs  
+  If this user opened this job or profile for the first time it come from database and save it in cache so in the second time he wants to see it, it's saved in cache so it will not take more time to response  
+  
+  2. Queue usage here is for something that don't need to be done right now, like notifications or a post for a famous employer that will be shared for millions we can put it in the queue to not make the system crash or be more latency so after we do the operation we put it in the queue and workers work in it parallel to the main work of the system
