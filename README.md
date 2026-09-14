@@ -22,3 +22,7 @@
 
 ---
 
+# 3. Data Model
+
+  Entities: Candidate - Employer - Job - Profile - Application
+  ![Data Model](./Datamodel.png)
