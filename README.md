@@ -54,6 +54,6 @@
 
 # 5. High Level Archeticture
   Client go to the API Gateway and move it according to the request to the profile server or Jobs Server and get or add to the database
-  [HLD](./HLD.png)
+  ![HLD](./HLD.png)
 
 ---
