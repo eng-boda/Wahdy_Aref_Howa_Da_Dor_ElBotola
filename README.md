@@ -32,11 +32,11 @@
 # 4. API Design
 
   ### Create Profile
-  POST/profile
-  body:{
-    "name": string,
-    "skills": string[]
-  }
+  POST/profile  
+  body:{  
+    "name": string,  
+    "skills": string[]  
+  }  
 
   ### Get Profile
   GET/profile/{profile_id} -> profile
@@ -45,10 +45,10 @@
   GET/jobs -> jobs[]
 
   ### Create Job
-  POST/jobs
-  body:{
-    "content": string
-  }
+  POST/jobs  
+  body:{  
+    "content": string  
+  }  
 
 ---
 
