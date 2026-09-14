@@ -26,3 +26,29 @@
 
   Entities: Candidate - Employer - Job - Profile - Application
   ![Data Model](./Datamodel.png)
+
+---
+
+# 4. API Design
+
+  ### Create Profile
+  POST/profile
+  body:{
+    "name": string,
+    "skills": string[]
+  }
+
+  ### Get Profile
+  GET/profile/{profile_id} -> profile
+
+  ### Get Jobs
+  GET/jobs -> jobs[]
+
+  ### Create Job
+  POST/jobs
+  body:{
+    "content": string
+  }
+
+---
+
